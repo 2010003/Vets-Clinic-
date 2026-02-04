@@ -5,7 +5,7 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyCgs1AH169QQNW2ykvzrWILRxcvtChv6_E',
+  apiKey: 'AIzaSyDiyUdTjWBcmWmuLm7CXE6wiyCwGyw0uGI',
   authDomain: 'vetclinic-31ec2.firebaseapp.com',
   projectId: 'vetclinic-31ec2',
   storageBucket: 'vetclinic-31ec2.firebasestorage.app',
@@ -16,3 +16,4 @@ const firebaseConfig = {
 export const firebaseApp = initializeApp(firebaseConfig);
 export const auth = getAuth(firebaseApp);
 export const db = getFirestore(firebaseApp);
+
